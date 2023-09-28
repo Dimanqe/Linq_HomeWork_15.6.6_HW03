@@ -26,7 +26,6 @@ namespace Task1
         static string[] GetAllStudents(Classroom[] classes)
         {
             return classes.SelectMany(classroom => classroom.Students).ToArray();
-
         }
        
     }
