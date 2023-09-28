@@ -16,7 +16,6 @@ namespace Task1
                new Classroom { Students = {"Evgeniy", "Sergey", "Andrew"}, },
                new Classroom { Students = {"Anna", "Viktor", "Vladimir"}, },
                new Classroom { Students = {"Bulat", "Alex", "Galina"}, },
-               new Classroom { Students = {"Bulat2", "Alex2", "Galina2"} },
                
            };
             var allStudents = GetAllStudents(classes);
